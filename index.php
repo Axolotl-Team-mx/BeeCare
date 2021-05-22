@@ -31,17 +31,29 @@ define('TITLE', 'Inicio');
                     <p class="text-center">Cambiemos la perspectiva en que se visualizan las abejas en México</p>
                 </div>
                 <div class="row articles">
-                    <div class="col-sm-6 col-md-4 item"><a href="#"><img class="img-fluid" src="assets/img/desk.jpg"></a>
-                        <h3 class="name">Article Title</h3>
-                        <p class="description">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu gravida. Aliquam varius finibus est, interdum justo suscipit id.</p><a class="action" href="#"><i class="fa fa-arrow-circle-right"></i></a>
+                    <div class="col-sm-6 col-md-4 item"><a href="bees.php"><img class="img-fluid" src="assets/img/desk.jpg"></a>
+                        <h3 class="name">¿Conoces los diferentes tipos de abeja en México?</h3>
+                        <p class="description">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu gravida. Aliquam varius finibus est, interdum justo suscipit id.</p>
+                        <a class="action" href="bees.php">
+                            <i class="fa fa-arrow-circle-right">
+                            </i>
+                        </a>
                     </div>
-                    <div class="col-sm-6 col-md-4 item"><a href="#"><img class="img-fluid" src="assets/img/building.jpg"></a>
-                        <h3 class="name">Article Title</h3>
-                        <p class="description">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu gravida. Aliquam varius finibus est, interdum justo suscipit id.</p><a class="action" href="#"><i class="fa fa-arrow-circle-right"></i></a>
+                    <div class="col-sm-6 col-md-4 item"><a href="beeplants.php"><img class="img-fluid" src="assets/img/desk.jpg"></a>
+                        <h3 class="name">Conoce las plantas favoritas de las abejas</h3>
+                        <p class="description">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu gravida. Aliquam varius finibus est, interdum justo suscipit id.</p>
+                        <a class="action" href="beeplants.php">
+                            <i class="fa fa-arrow-circle-right">
+                            </i>
+                        </a>
                     </div>
-                    <div class="col-sm-6 col-md-4 item"><a href="#"><img class="img-fluid" src="assets/img/loft.jpg"></a>
-                        <h3 class="name">Article Title</h3>
-                        <p class="description">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu gravida. Aliquam varius finibus est, interdum justo suscipit id.</p><a class="action" href="#"><i class="fa fa-arrow-circle-right"></i></a>
+                    <div class="col-sm-6 col-md-4 item"><a href="beeTips.php"><img class="img-fluid" src="assets/img/desk.jpg"></a>
+                        <h3 class="name">¡oh no!, me encontre con una abeja, ¿qué deberia hacer?</h3>
+                        <p class="description">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu gravida. Aliquam varius finibus est, interdum justo suscipit id.</p>
+                        <a class="action" href="beeTips.php">
+                            <i class="fa fa-arrow-circle-right">
+                            </i>
+                        </a>
                     </div>
                 </div>
             </div>
