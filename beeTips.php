@@ -35,20 +35,11 @@ define('TITLE', 'Recomendaciones');
 
                     <input type="file" onchange="document.getElementById('blah').src = window.URL.createObjectURL(this.files[0])">
                 </div>
-                <div class="row articles">
-                    <div class="col-sm-6 col-md-4 item"><a href="#"><img class="img-fluid" src="assets/img/desk.jpg"></a>
-                        <h3 class="name">Article Title</h3>
-                        <p class="description">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu gravida. Aliquam varius finibus est, interdum justo suscipit id.</p><a class="action" href="#"><i class="fa fa-arrow-circle-right"></i></a>
-                    </div>
-                    <div class="col-sm-6 col-md-4 item"><a href="#"><img class="img-fluid" src="assets/img/building.jpg"></a>
-                        <h3 class="name">Article Title</h3>
-                        <p class="description">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu gravida. Aliquam varius finibus est, interdum justo suscipit id.</p><a class="action" href="#"><i class="fa fa-arrow-circle-right"></i></a>
-                    </div>
-                    <div class="col-sm-6 col-md-4 item"><a href="#"><img class="img-fluid" src="assets/img/loft.jpg"></a>
-                        <h3 class="name">Article Title</h3>
-                        <p class="description">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu gravida. Aliquam varius finibus est, interdum justo suscipit id.</p><a class="action" href="#"><i class="fa fa-arrow-circle-right"></i></a>
-                    </div>
-                </div>
+              
+              <div>
+              <img src = "https://www.lavozdelafrontera.com.mx/incoming/24r8qa-20-21-agrobaja-tc-1.jpg/ALTERNATES/LANDSCAPE_768/20-21%20AgroBaja%20TC-1.jpg">
+              </div>
+
             </div>
         </section>
     </div>

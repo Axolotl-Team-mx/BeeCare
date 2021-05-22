@@ -9,7 +9,25 @@ $modelo->Contrasena=$_POST['txtusrContrasena'];
 
 $filaLogear=$modelo->ValidacionUsr();
 
-if($filaLogear > 0){
+?>
+
+<!DOCTYPE html>
+<html>
+<?php
+define('TITLE', 'Inicio');
+?>
+
+<head>
+    <title>About - <?php echo TITLE ?></title>
+    <?php include 'head.php'; ?>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <?php
+    if($filaLogear > 0){
     $sql = "SELECT * FROM Usuario WHERE usrNomUsr='$modelo->NomUsr'";
     $stmt = sqlsrv_query($conn,$sql);
     if($stmt === false){
@@ -27,7 +45,46 @@ else{
     </script>';
     exit();
 }
-
-
-
 ?>
+<div id="contenido">
+      <table style="margin: auto; width: 800px; border-collapse: separate; border-spacing: 10px 5px;">
+        <thead>
+          <th>Id de localización.</th>
+          <th>Nombre de localización</th>
+          <th>Longitud</th>
+          <th>Latitud</th>
+          <th> <a href="nuevo_prod1.php"> <button type="button" class="btn btn-info">Nuevo</button> </a> </th>
+        </thead>
+
+        <?php
+        include "conexion.php";
+        $sql = "SELECT * FROM Localizacion";
+        $stmt = sqlsrv_query($conn, $sql);
+        if ($stmt === false) {
+          die(print_r(sqlsrv_errors(), true));
+          printf("Algo fallo");
+        }
+        while ($row = sqlsrv_fetch_array($stmt, SQLSRV_FETCH_ASSOC)) {
+          echo "<tr>";
+          echo "<td>"; echo $row['Id_Localizacion']; echo "</td>";
+          echo "<td>"; echo $row['lzNombre']; echo "</td>";
+          echo "<td>"; echo $row['lzLongitud']; echo "</td>";
+          echo "<td>"; echo $row['lzLatitud']; echo "</td>";
+          echo "<td><a href='modif_prod1.php?no=".$row['Id_Localizacion']."'> <button type='button' class='btn btn-success'>Modificar</button> </a></td>";
+          echo " <td><a href='eliminar_prod.php?no=".$row['Id_Localizacion']."'> <button type='button' class='btn btn-danger'>Eliminar</button> </a></td>";
+        echo "</tr>";
+        }
+        ?>
+      </table>
+    </div>
+        
+    </div>
+    <footer>
+        <?php include 'footer.php'; ?>
+    </footer>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.4.8/swiper-bundle.min.js"></script>
+    <script src="assets/js/script.min.js"></script>
+</body>
+
+</html>
