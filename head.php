@@ -7,5 +7,8 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora">
 <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+<link rel="stylesheet" href="assets/css/styles.css">
 <link rel="stylesheet" href="assets/css/styles.min.css">
+<link rel="stylesheet" href="assets/bootstrap/js/Funciones.js">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.4.8/swiper-bundle.min.css">
+<link rel="shortcut icon" href="assets/img/icon/favicon.ico"/>

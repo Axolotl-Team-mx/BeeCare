@@ -33,25 +33,25 @@ define('TITLE', 'Axolotl Team');
                         <p class="text-center">Nunc luctus in metus eget fringilla. Aliquam sed justo ligula. Vestibulum nibh erat, pellentesque ut laoreet vitae. </p>
                     </div>
                     <div class="row people" style="text-align: center;">
-                        <div class="col-md-6 col-lg-4 item"><img class="rounded-circle" src="assets/img/profileAlvaro.jpg">
+                        <div class="col-md-6 col-lg-4 item"><img class="rounded-circle" src="assets/img/Perfiles/profileAlvaro.jpg">
                             <h3 class="name">Álvaro González</h3>
                             <p class="title">Musician</p>
                             <p class="description">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu gravida. Aliquam varius finibus est, et interdum justo suscipit id. Etiam dictum feugiat tellus, a semper massa. </p>
                             <div class="social"><a href="#"><i class="fa fa-facebook-official"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-github"></i></a></div>
                         </div>
-                        <div class="col-md-6 col-lg-4 item"><img class="rounded-circle" src="assets/img/profileAbril.jpg">
+                        <div class="col-md-6 col-lg-4 item"><img class="rounded-circle" src="assets/img/Perfiles/profileAbril.jpg">
                             <h3 class="name">Abril Ramirez</h3>
                             <p class="title">Musician</p>
                             <p class="description">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu gravida. Aliquam varius finibus est, et interdum justo suscipit id. Etiam dictum feugiat tellus, a semper massa. </p>
                             <div class="social"><a href="#"><i class="fa fa-facebook-official"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-instagram"></i></a></div>
                         </div>
-                        <div class="col-md-6 col-lg-4 item"><img class="rounded-circle" src="assets/img/profileDaniel.jpg">
+                        <div class="col-md-6 col-lg-4 item"><img class="rounded-circle" src="assets/img/Perfiles/profileDaniel.jpg">
                             <h3 class="name">Daniel Corona</h3>
                             <p class="title">Artist</p>
                             <p class="description">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu gravida. Aliquam varius finibus est, et interdum justo suscipit id. Etiam dictum feugiat tellus, a semper massa. </p>
                             <div class="social"><a href="#"><i class="fa fa-facebook-official"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-instagram"></i></a></div>
                         </div>
-                        <div class="col-md-6 col-lg-4 item" style="text-align: center;"><img class="rounded-circle" src="assets/img/profileChris.jpg">
+                        <div class="col-md-6 col-lg-4 item" style="text-align: center;"><img class="rounded-circle" src="assets/img/Perfiles/profileChris.jpg">
                             <h3 class="name">Christian Arellano</h3>
                             <p class="title">Stylist</p>
                             <p class="description">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu gravida. Aliquam varius finibus est, et interdum justo suscipit id. Etiam dictum feugiat tellus, a semper massa. </p>
