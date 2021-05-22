@@ -27,7 +27,6 @@ define('TITLE', 'Inicio');
     <div class="row">
                 <div class="col-md-10 col-lg-8 mx-auto">
                     <p>Introducción pendiente...</p>
-                    <h5> Login </h5>
                     <div class="Login">
                         <form method="POST" action="main.php">
                             <table>
