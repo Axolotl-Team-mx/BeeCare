@@ -30,6 +30,11 @@ define('TITLE', 'Recomendaciones');
                     <h2 class="text-center">Bee Care</h2>
                     <p class="text-center">Cambiemos la perspectiva en que se visualizan las abejas en México</p>
                 </div>
+                <div>
+                    <img id="blah" alt="your image" width="100" height="100" />
+
+                    <input type="file" onchange="document.getElementById('blah').src = window.URL.createObjectURL(this.files[0])">
+                </div>
                 <div class="row articles">
                     <div class="col-sm-6 col-md-4 item"><a href="#"><img class="img-fluid" src="assets/img/desk.jpg"></a>
                         <h3 class="name">Article Title</h3>
