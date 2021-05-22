@@ -1,18 +1,9 @@
-<article>
-    <div style="visibility:hidden">
-        Search Type:
-        <input type="radio" value="address" name="searchTypeGroup" checked="checked" />
-    </div>
-    País:
-    <select id="countrySelector">
-        <option value="MX">México</option>
-    </select>
-    <br /><br />
+<p class="text-center"> Comienza el mapa</p>
+<div onload='GetMap()'>
+    <div id="myMap" style="position:relative;width:100%;min-width:290px;height:600px;"></div>
 
-    <div class="ui-widget">
-        <label for="queryTbx">Buscar Lugar: </label>
-        <input id="queryTbx">
-    </div><br />
-
-    <div id="myMap" style="position:relative;width:100%;min-width:290px;height:500px; left:50px;"></div>
-</article>
+    <fieldset style="width:calc(100% - 30px);min-width:290px;margin-top:10px;">
+        <legend>
+        </legend>
+    </fieldset>
+</div>

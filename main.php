@@ -66,12 +66,12 @@ else{
         }
         while ($row = sqlsrv_fetch_array($stmt, SQLSRV_FETCH_ASSOC)) {
           echo "<tr>";
-          echo "<td>"; echo $row['Id_Localizacion']; echo "</td>";
-          echo "<td>"; echo $row['lzNombre']; echo "</td>";
-          echo "<td>"; echo $row['lzLongitud']; echo "</td>";
-          echo "<td>"; echo $row['lzLatitud']; echo "</td>";
-          echo "<td><a href='modif_prod1.php?no=".$row['Id_Localizacion']."'> <button type='button' class='btn btn-success'>Modificar</button> </a></td>";
-          echo " <td><a href='eliminar_prod.php?no=".$row['Id_Localizacion']."'> <button type='button' class='btn btn-danger'>Eliminar</button> </a></td>";
+          echo "<td>"; echo $row['locId']; echo "</td>";
+          echo "<td>"; echo $row['locName']; echo "</td>";
+          echo "<td>"; echo $row['locLon']; echo "</td>";
+          echo "<td>"; echo $row['locLat']; echo "</td>";
+          echo "<td><a href='modif_prod1.php?no=".$row['locId']."'> <button type='button' class='btn btn-success'>Modificar</button> </a></td>";
+          echo " <td><a href='eliminar_prod.php?no=".$row['locName']."'> <button type='button' class='btn btn-danger'>Eliminar</button> </a></td>";
         echo "</tr>";
         }
         ?>
