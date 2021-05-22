@@ -25,37 +25,80 @@ define('TITLE', 'Axolotl Team');
     </header>
     <div class="row">
         <div class="col-md-10 col-lg-12 mx-auto">
-            <p>En este apartado puedes encontrar informacion referente a nosotros, no dudes en ir a la parte de abajo de esta página para poder encontrar nuestro metodo de contacto.</p>
             <section class="team-clean" style="text-align: center;">
                 <div class="container" style="text-align: center;">
                     <div class="intro">
-                        <h2 class="text-center">Team </h2>
-                        <p class="text-center">Nunc luctus in metus eget fringilla. Aliquam sed justo ligula. Vestibulum nibh erat, pellentesque ut laoreet vitae. </p>
+                        <img src="assets/img/BeeCareLogo.png" alt="">
+                        <h2 class="text-center">Nuestro equipo </h2>
+                        <p class="text-center">AxolotlTeam es un grupo de estudiantes de ingeniería que busca participar y sobresalir en los diferentes concursos. <br> También nos agrada la idea de aprender mas sobre las herramientas que nos permitan cambiar la perspectiva de la sociedad buscando un cambio positivo en ella. </p>
                     </div>
                     <div class="row people" style="text-align: center;">
-                        <div class="col-md-6 col-lg-4 item"><img class="rounded-circle" src="assets/img/Perfiles/profileAlvaro.jpg">
+                        <div class="col-md-6 col-lg-4 item">
+                            <img class="rounded-circle" src="assets/img/Perfiles/profileAlvaro.jpg">
                             <h3 class="name">Álvaro González</h3>
-                            <p class="title">Musician</p>
-                            <p class="description">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu gravida. Aliquam varius finibus est, et interdum justo suscipit id. Etiam dictum feugiat tellus, a semper massa. </p>
-                            <div class="social"><a href="#"><i class="fa fa-facebook-official"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-github"></i></a></div>
+                            <p class="title">Desarrollador de software</p>
+                            <p class="description">
+                            Me gusta mucho participar en eventos de innovación y emprendimiento, entre las tecnologías en las que me he desempeñado se encuentra la manipulación de servidores para bases de datos y páginas web. 
+                            </p>
+                            <div class="social">
+                                <a href="https://www.facebook.com/aggm123/">
+                                    <i class="fa fa-facebook-official"></i>
+                                </a>
+                                <a href="https://twitter.com/aggm123">
+                                    <i class="fa fa-twitter"></i>
+                                </a>
+                                <a href="https://github.com/Alvaroggm123">
+                                    <i class="fa fa-github"></i>
+                                </a>
+                            </div>
                         </div>
-                        <div class="col-md-6 col-lg-4 item"><img class="rounded-circle" src="assets/img/Perfiles/profileAbril.jpg">
+                        <div class="col-md-6 col-lg-4 item">
+                            <img class="rounded-circle" src="assets/img/Perfiles/profileAbril.jpg">
                             <h3 class="name">Abril Ramirez</h3>
-                            <p class="title">Musician</p>
-                            <p class="description">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu gravida. Aliquam varius finibus est, et interdum justo suscipit id. Etiam dictum feugiat tellus, a semper massa. </p>
-                            <div class="social"><a href="#"><i class="fa fa-facebook-official"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-instagram"></i></a></div>
+                            <p class="title">Desarrolladora de software</p>
+                            <p class="description">
+                                Hola, soy Abril, actualmente soy estudiante de ingeniería en Sistemas Computacionales, me especializo en desarrollo de software y soy excelente trabajando bajo presión.
+                            </p>
+                            <div class="social">
+                                <a href="https://www.facebook.com/abril.ramirez.9235">
+                                    <i class="fa fa-facebook-official"></i>
+                                </a>
+                                <a href="https://github.com/iscRamirezAbril">
+                                    <i class="fa fa-github"></i>
+                                </a>
+                            </div>
                         </div>
-                        <div class="col-md-6 col-lg-4 item"><img class="rounded-circle" src="assets/img/Perfiles/profileDaniel.jpg">
+                        <div class="col-md-6 col-lg-4 item">
+                            <img class="rounded-circle" src="assets/img/Perfiles/profileDaniel.jpg">
                             <h3 class="name">Daniel Corona</h3>
-                            <p class="title">Artist</p>
-                            <p class="description">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu gravida. Aliquam varius finibus est, et interdum justo suscipit id. Etiam dictum feugiat tellus, a semper massa. </p>
-                            <div class="social"><a href="#"><i class="fa fa-facebook-official"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-instagram"></i></a></div>
+                            <p class="title">Desarrollador back-end</p>
+                            <p class="description">
+                                Estudiante en la carrera de ingeniería en sistemas computacionales, me encanta todo lo relacionado al desarrollo de páginas web y los artículos sobre avances tecnológicos.
+                            </p>
+                            <div class="social">
+                                <a href="https://www.facebook.com/alejandro.corona995">
+                                    <i class="fa fa-facebook-official"></i>
+                                </a>
+                                <a href="https://github.com/corona9955">
+                                    <i class="fa fa-github"></i>
+                                </a>
+                            </div>
                         </div>
-                        <div class="col-md-6 col-lg-4 item" style="text-align: center;"><img class="rounded-circle" src="assets/img/Perfiles/profileChris.jpg">
+                        <div class="col-md-6 col-lg-4 item">
+                            <img class="rounded-circle" src="assets/img/Perfiles/profileChris.jpg">
                             <h3 class="name">Christian Arellano</h3>
-                            <p class="title">Stylist</p>
-                            <p class="description">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu gravida. Aliquam varius finibus est, et interdum justo suscipit id. Etiam dictum feugiat tellus, a semper massa. </p>
-                            <div class="social"><a href="#"><i class="fa fa-facebook-official"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-instagram"></i></a></div>
+                            <p class="title">Desarrollador back-end</p>
+                            <p class="description">
+                                Soy estudiante universitario enfocado en la carrera de ing. Sistemas Computacionales. Me gusta mucho el mundo de la programación y tecnologías, encuentro una gran fascinación por la inteligencia artificial y el análisis de datos.
+                            </p>
+                            <div class="social">
+                                <a href="https://www.facebook.com/christian.arellano.121">
+                                    <i class="fa fa-facebook-official"></i>
+                                </a>
+                                <a href="https://github.com/chrisare1718">
+                                    <i class="fa fa-github"></i>
+                                </a>
+                            </div>
                         </div>
                     </div>
                 </div>
