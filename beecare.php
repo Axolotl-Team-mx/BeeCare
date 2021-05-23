@@ -5,7 +5,7 @@ define('TITLE', 'Bee care');
 ?>
 
 <head>
-    <title>About - <?php echo TITLE ?></title>
+    <title>beecare - <?php echo TITLE ?></title>
     <?php include 'head.php'; ?>
     <?php include 'assets/headMapa.php'; ?>
     <meta charset="utf-8" />
@@ -13,7 +13,7 @@ define('TITLE', 'Bee care');
 
 <body onload="GetMap()">
     <?php include 'header.php' ?>
-    <header class="masthead" style="background-image:url('assets/img/post-bg.jpg');">
+    <header class="masthead" style="background-image:url('assets/img/beecare2.gif');">
         <div class="overlay"></div>
         <div class="container">
             <div class="row">
@@ -62,24 +62,7 @@ define('TITLE', 'Bee care');
                         <li><strong>Zánganos:</strong> Estas abejas son machos; vuelan lejos para reproducirse con otras reinas jóvenes que iniciarán una nueva colonia.</li>
 
                         <p></p>
-                        <h1 class="text-center">Enfermedades en abejas</h1>
-                        <h5><strong>Acarapisosis</strong></h5>
-                        <p>Es causada por un ácaro microscópico, Acarapis woodi, denominado también ácaro traqueal, un parásito interno del sistema respiratorio de las abejas adultas que se alimenta de hemolinfa. Se ha registrado la acarapisosis en Norteamérica, Sudamérica, Europa y Oriente Medio.</p>
-
-                        <h5><strong>Loque americana</strong></h5>
-                        <p>Es una enfermedad grave de las abejas melíferas causada por una bacteria productora de esporas llamada Paenibacillus larvae. Está presente en todo el mundo. La bacteria mata las larvas en las celdillas de cría.</p>
-
-                        <h5><strong>Loque europea</strong></h5>
-                        <p>Enfermedad de las abejas melíferas causada por la bacteria Melisococcus plutonius. A pesar del nombre, se encuentra en Norteamérica, Sudamérica, Oriente Medio y Asia. Al igual que la loque americana, las bacterias de la loque europea matan las larvas dejando vacías las celdillas del panal. La enfermedad se transmite por contaminación mecánica de los panales y tiende, por tanto, a persistir año tras año. También puede ser transmitida por las abejas que sobreviven a una infección en la fase larval y diseminan las bacterias en las deyecciones.</p>
-
-                        <h5><strong>Infestación por escarabajo de las colmenas</strong></h5>
-                        <p>El pequeño escarabajo de las colmenas, Aethina tumida, es un depredador y parásito de las colonias de abejas melíferas. Es oriundo de África, pero fue introducido en los Estados Unidos, Egipto, Canadá y Australia por el movimiento comercial de abejas. Considerado como una plaga menor en su territorio original, se ha convertido en un problema importante en las zonas donde se ha introducido. Tanto los adultos como las larvas de los escarabajos se alimentan de larvas, polen, miel y cría de abejas. </p>
-
-                        <h5><strong>Tropilaelaps</strong></h5>
-                        <p>Existen varias especies de ácaros Tropilaelaps, en particular Tropilaelaps clareae y T. koenigerum. Cada especie tiene un ámbito geográfico distinto, pero todas se encuentran en Asia. Estos ácaros son parásitos externos que se alimentan de las crías de abejas (larvas y pupas) y causan un patrón irregular de crías operculadas y sin opercular, así como deformidades en los adultos. Se diseminan por contacto directo de abeja a abeja o por el movimiento de la cría.</p>
-
-                        <h5><strong>Varroosis</strong></h5>
-                        <p>Es causada por un ácaro, un parásito externo de las abejas adultas y de sus crías. Existen cuatro especies de ácaros Varroa, pero Varroa destructor es el más importante. Se encuentra en todo el mundo salvo en Australia y la isla sur de Nueva Zelanda. Es conocido por transmitir un virus que causa deformación del ala, las abejas adultas afectadas con varroosis también presentan el abdomen más corto.</p>
+                        
 
                         <h1 class="text-center">Cuidado de las abejas</h1>
                         <figure class="figure d-block"><img class="figure-img" src="assets/img/beecareoptions.jpg" width="300px" height="200px"></figure>
@@ -105,7 +88,7 @@ define('TITLE', 'Bee care');
 
                     <p></p>
                     <div>
-                        <h1 class="text-center">Fuentes bibliográficas</h1>
+                        <h1 class="text-center">Fuentes bibliográficas.</h1>
                     </div>
                     <p>INCyTU. (Mayo de 2019). Abejas> Insectos Polinizadores. Ciudad de México, Ciudad de México, México. Obtenido de https://foroconsultivo.org.mx/INCyTU/documentos/Completa/INCYTU_19-031.pdf</p>
                     <p>MXCity. (s.f.). MXCITY GUIA INSIDER. Obtenido de 7 PASOS SENCILLOS PARA AYUDAR A SALVAR A LAS ABEJAS DE LA CDMX: https://mxcity.mx/2019/05/7-pasos-sencillos-para-ayudar-a-salvar-a-las-abejas-de-la-cdmx/</p>

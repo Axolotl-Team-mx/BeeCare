@@ -5,19 +5,19 @@ define('TITLE', 'Inicio');
 ?>
 
 <head>
-    <title>About - <?php echo TITLE ?></title>
+    <title>Reporte avistamiento - <?php echo TITLE ?></title>
     <?php include 'head.php'; ?>
 </head>
 
 <body>
     <?php include 'header.php' ?>
-    <header class="masthead" style="background-image:url('assets/img/home-bg.jpg');">
+    <header class="masthead" style="background-image:url('assets/img/avistamiento.gif');">
         <div class="overlay"></div>
         <div class="container">
             <div class="row">
                 <div class="col-md-10 col-lg-8 mx-auto position-relative">
                     <div class="site-heading">
-                        <h1>Inició de sesión</h1><span class="subheading">
+                        <h1>Inicio de sesión</h1><span class="subheading">
                     </div>
                 </div>
             </div>
