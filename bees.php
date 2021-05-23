@@ -270,6 +270,16 @@ define('TITLE', '¿Abejas?');
         <p>Estas abejas alcanzan 1.2 o 1.3 centímetros de tamaño. y están recubiertas de una densa pilosidad dorada, más brillante en la hembra que en el macho, que suele aparecer más amarillento.</p>
         <p>Se alimenta en las flores de los groselleros y otras plantas del género Ribes.</p>
         <p>Es una de las abejas que aparecen antes, pues se la puede ver preparando los nidos ya a principios de la primavera, en prados y céspedes. La hembra -el macho murió poco después del apareamiento- excavará un pozo vertical de dos o tres centímetros con galerías ramificadas con varias celdillas en las que se depositan los huevos y se les provée de néctar y polen para que se alimenten las larvas.</p>
+    
+        <div>
+            <h1 class="text-center">Fuentes bibliográficas</h1>
+        </div>
+        <p>Coello, Z. (30 de Octubre de 2019). Experto Animal. Obtenido de Tipos de abejas: https://www.expertoanimal.com/tipos-de-abejas-24510.html</p>
+        <p>Mieles Mesoamericanas. (2018). Mieles Mesoamericanas. Obtenido de Miel de melipona: https://www.ecosur.mx/mieles/miel-de-melipona/#:~:text=Melipona%20beecheii&text=Es%20una%20abeja%20de%20tierra,de%20Chiapas%2C%20Oaxaca%20y%20Veracruz</p>
+        <p>Naturalista. (s.f.). Naturalista. Obtenido de Abeja sin aguijón: https://colombia.inaturalist.org/taxa/308416-Scaptotrigona-mexicana</p>
+        <p>Contreras Cortés, L. E., Vázquez García, A., Aldasoro Maya, E. M., & Mérida Rivas, J. (2020). Conocimiento de las abejas nativas sin aguijón y cambio generacional entre los mayas lacandones de Nahá, Chiapas. Estudios de Cultura Maya. Obtenido de http://www.scielo.org.mx/scielo.php?script=sci_arttext&pid=S0185-25742020000200205</p>
+        <p>CONABIO. 2017. Análisis de riesgo Rápido de Apis mellifera scutellata. Sistema de información sobre especies invasoras en México. Comisión Nacional para el Conocimiento y Uso de la Biodiversidad. México DF</p>
+        <p>Abeja excavadora. (2019, agosto 17). EcuRed, . Consultado el 22:12, mayo 22, 2021 en https://www.ecured.cu/index.php?title=Abeja_excavadora&oldid=3509924</p>
     </div>
     <footer>
         <?php include 'footer.php'; ?>
