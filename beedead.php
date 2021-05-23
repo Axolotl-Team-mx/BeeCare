@@ -17,7 +17,7 @@ define('TITLE', 'Recomendaciones');
             <div class="row">
                 <div class="col-md-10 col-lg-8 mx-auto position-relative">
                     <div class="site-heading">
-                        <h1>¿Por qué las abejas mueren?</h1><span class="subheading">Aquí encontraras información enfocada en las principales causas por las cuales muere una abeja.</span>
+                        <h1>¿Por qué las abejas mueren?</h1><span class="subheading"> Aquí encontraras información enfocada en las principales causas por las cuales muere una abeja.</span>
                     </div>
                 </div>
             </div>
