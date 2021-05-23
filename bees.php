@@ -228,6 +228,48 @@ define('TITLE', '¿Abejas?');
                 <li>Stenotritus elegans</li>
                 <li>Stenotritus elegantior</li>
         </div>
+
+        <div class="row">
+            <p></p>
+            <h1 class="text-center">Especies de abejas en México</h1>
+        </div>
+        <img class="col-sm-6 col-md-4 item"><img class="img-fluid" src="assets/img/mapamexico.png" width="370px" height="300px"></img>
+        <h2>Nativas</h2>
+        <h3 class="text-center">Melipona</h3>
+        <img class="col-sm-6 col-md-4 item"><img class="img-fluid" src="assets/img/meliponanativa.jpg" width="370px" height="300px"></img>
+        <p>Melipona beecheii es una de las especies emblemáticas del grupo de las abejas sin aguijón, por ser manejada desde la época prehispánica por los mayas, con el nombre de Xunan kab. Es una abeja de tierra caliente que se encuentra principalmente en el Petén y la península de Yucatán, pero también en otras partes de México, como es en las costas de Chiapas, Oaxaca y Veracruz.</p>
+        <p>Esta abeja es grande, de un poco más de un centímetro de longitud y vive en colonias de 1,000 a 3,000 individuos, en oquedades presentes en árboles. Cada colonia contiene una sola reina, madre de todas las abejas. Los panales de cría son horizontales y las celdas de cría son de uso único las cuales son destruidas para recuperar su cera después de la emergencia de las abejas.</p>
+
+        <h3 class="text-center">Scaptrigona</h3>
+        <img class="col-sm-6 col-md-4 item"><img class="img-fluid" src="assets/img/scaptrigona.jpg" width="370px" height="300px"></img>
+        <p>S. mexicana está distribuida desde Tamaulipas a través del golfo de México hasta Chiapas y continúa a través de Guatemala, desde el nivel del mar hasta los 1000 m.s.m.
+            Es una de las dos especies de abejas sin aguijón que tradicionalmente han sido explotadas para la producción de miel en Mesoamérica y ahora está aumentando su uso en la meliponicultura.
+        </p>
+        <p>Anidan en huecos de troncos o ramas y se caracterizan por tener una entrada de cera en forma de trompeta. También pueden anidar en cavidades entre raíces y piedras.
+            Es una especie con un marcado comportamiento defensivo, el nido es protegido agresivamente por las obreras, que se enredan en el cabello, dejan un olor muy peculiar y muerden la piel.
+        </p>
+
+        <h3 class="text-center">Tetragonisca</h3>
+        <img class="col-sm-6 col-md-4 item"><img class="img-fluid" src="assets/img/tetragonisca.jpg" width="370px" height="300px"></img>
+        <p>Es una abeja dócil, pequeña, de color amarillo con negro. Los nidos de esta abeja son hechos en pequeñas aberturas, incluso de paredes; la entrada de su nido por lo regular es una boquilla. Es una especie manejable, se puede producir en las casas, sobre todo en troncos. La miel se consume como endulzante y para curar la tos.</p>
+    
+        <h2>Invasoras</h2>
+        <h3 class="text-center">Apis Melífera</h3>
+        <img class="col-sm-6 col-md-4 item"><img class="img-fluid" src="assets/img/apismelifera.jpg" width="370px" height="300px"></img>
+        <p>Apis mellifera scutellata se introdujo a América del sur proveniente de África para ayudar a reactivar la industria de la apicultura brasileña. Las reinas y obreras fueron liberadas accidentalmente, hibridizando con las colonias locales, extendiéndose de forma gradual, y causando problemas económicos, sociales y ecológicos, debido al comportamiento agresivo.</p>
+        <p>Su cuerpo está cubierto por pelusa. Mide de 10-20 mm de largo. Su color es marrón con rayas negras. Las abejas obreras son de 10-15 mm de largo, los drones de 15-17 mm y 18-20 mm las reinas. Es muy similar a las abejas europeas, a pesar de que es ligeramente más pequeña.</p>
+
+        <div class="row">
+            <p></p>
+            <h1 class="text-center">Especies de abejas en Baja California - México</h1>
+        </div>
+        <img class="col-sm-6 col-md-4 item"><img class="img-fluid" src="assets/img/mapabajacalifornia.png" width="370px" height="300px"></img>
+        <h2 class="text-center">Apis Melífera</h2>
+        <h2 class="text-center">Excabadora de California</h2>
+        <img class="col-sm-6 col-md-4 item"><img class="img-fluid" src="assets/img/excabadoracalifornia.jpg" width="370px" height="300px"></img>
+        <p>Estas abejas alcanzan 1.2 o 1.3 centímetros de tamaño. y están recubiertas de una densa pilosidad dorada, más brillante en la hembra que en el macho, que suele aparecer más amarillento.</p>
+        <p>Se alimenta en las flores de los groselleros y otras plantas del género Ribes.</p>
+        <p>Es una de las abejas que aparecen antes, pues se la puede ver preparando los nidos ya a principios de la primavera, en prados y céspedes. La hembra -el macho murió poco después del apareamiento- excavará un pozo vertical de dos o tres centímetros con galerías ramificadas con varias celdillas en las que se depositan los huevos y se les provée de néctar y polen para que se alimenten las larvas.</p>
     </div>
     <footer>
         <?php include 'footer.php'; ?>
