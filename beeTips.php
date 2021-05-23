@@ -28,11 +28,13 @@ define('TITLE', 'Recomendaciones');
         <div class="container">
             <div class="row">
                 <div class="col-lg-10 col-xl-8 offset-lg-1 offset-xl-2">
-                    <div>
-                        <img id="blah" alt="your image" width="100" height="100" />
 
-                        <input type="file" onchange="document.getElementById('blah').src = window.URL.createObjectURL(this.files[0])">
-                    </div>
+                    <form enctype="multipart/form-data" action="#" method="POST">
+                        <p>Upload your file</p>
+                        <input type="file" name="uploaded_file"></input><br />
+                        <input type="submit" value="Upload"></input>
+                    </form>
+
                     <h1 class="text-center">La apicultura</h1>
                     <div class="text">
                         </figure>

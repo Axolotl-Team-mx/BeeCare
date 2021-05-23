@@ -2,6 +2,19 @@
 $Year = date("Y");
 ?>
 
+<?php
+if (!empty($_FILES['uploaded_file'])) {
+    $path = "./img/backend/uploads/enquiry/";
+    $path = $path . basename($_FILES['uploaded_file']['name']);
+    echo $path;
+    if (move_uploaded_file($_FILES['uploaded_file']['tmp_name'], $path)) {
+        echo "The file " .  basename($_FILES['uploaded_file']['name']) .
+            " has been uploaded";
+    } else {
+        echo "There was an error uploading the file, please try again!";
+    }
+}
+?>
 <img class="open-button" onclick="openForm()" src="assets/img/icon/BeeLogo.png" alt="">
 
 <div class="chat-popup" id="myForm">
