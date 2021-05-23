@@ -11,13 +11,13 @@ define('TITLE', '¿Abejas para plantas?');
 
 <body>
     <?php include 'header.php' ?>
-    <header class="masthead" style="background-image:url('assets/img/home-bg.jpg');">
+    <header class="masthead" style="background-image:url('assets/img/Flores.gif');">
         <div class="overlay"></div>
         <div class="container">
             <div class="row">
                 <div class="col-md-10 col-lg-8 mx-auto position-relative">
                     <div class="site-heading">
-                        <h1>Plantas</h1><span class="subheading">Las mejores aliadas para las abejas.</span>
+                    <br>  <h1>Plantas</h1><span class="subheading">Las mejores aliadas para las abejas.</span><br>
                     </div>
                 </div>
             </div>
