@@ -11,7 +11,7 @@ define('TITLE', '¿Abejas?');
 
 <body>
     <?php include 'header.php' ?>
-    <header class="masthead" style="background-image:url('http://mercadito.axolotlteam.com/BeeCare/assets/img/portadaFamiliasAbejas.gif');">
+    <header class="masthead" style="background-image:url('http://axolotlteam.com/BeeCare/assets/img/portadaFamiliasAbejas.gif');">
         <div class="overlay"></div>
         <div class="container">
             <div class="row">
