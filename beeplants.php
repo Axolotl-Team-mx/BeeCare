@@ -137,6 +137,25 @@ define('TITLE', '¿Abejas para plantas?');
                     <p>
                         Árbol chico de 1 a 10m de altura compuesta de hojas amarillas en forma de lámpara, este color es el que atrae a las abejas, usualmente se encuentra en los estados de: Baja California Sur, Nuevo León, Sinaloa, Chihuahua, Durango, Oaxaca,Yucatán, Chiapas, Hidalgo y Guanajuato.
                     </p><br>
+                    <div class="text">
+                        </figure>
+                        <h2 style="text-align: center;">Fuentes bibliográficas.</h2>
+                        <p>Gonzalez Vanegas Paola y Cultid-Medina Carlos (s.f) El polen y las abejas: una relación más compleja de lo que aparenta. Obtenido de polinización: https://www.inecol.mx/inecol/index.php/es/2013-06-05-10-34-10/17-ciencia-hoy/1105-el-polen-y-las-abejas-una-relacion-mas-compleja-de-lo-que-aparenta</p>
+            <p>Gobierno de México (29 de Marzo del 2019) ¡Los polinizadores nos necesitan y nosotros también! Obtenido de polinizadores: https://www.gob.mx/conabio/prensa/los-polinizadores-nos-necesitan-y-nosotros-tambien?idiom=es</p>
+            <p>Maldonado Rodríguez José Antonio (Diciembre de 1998) El orégano silvestre en México Obtenido de: http://repositorio.uaaan.mx:8080/xmlui/bitstream/handle/123456789/712/T12297%20MALDONADO%20RODRIGUEZ%20JOSE%20ANTONIO.pdf?sequence=1</p> </div>
+            <p>Naturalista (s.f) Caléndula del Mediterráneo <i>(Calendula officinalis)</i> Obtenido de: https://www.naturalista.mx/taxa/75931-Calendula-officinalis</p>
+            <p>Gobierno de México (s.f) Del Mediterráneo llegó el romero a nuestras mesas. Obtenido de:https://www.gob.mx/agricultura/es/articulos/del-mediterraneo-llego-el-romero-a-nuestras-mesas#:~:text=Los%20estados%20mexicanos%20productores%20de,por%20ciento%20del%20total%20nacional</p>
+            <p>Naturalista (s.f) Algodoncillo <i>(Asclepias curassavica)</i> Obtenido de: https://www.naturalista.mx/guide_taxa/766865</p>
+            <p>Naturalista (s.f) Tejocote <i>(Crataegus mexicana)</i> Obtenido de: https://www.naturalista.mx/guide_taxa/766867</p>
+            <p>MXCity (s.f) El Muicle es una de las plantas medicinales mexicanas más antiguas. Obtenido de: https://mxcity.mx/2020/02/el-muicle-es-una-de-las-plantas-medicinales-mexicanas-mas-antiguas-fotos/</p>
+            <p>Naturalista (s.f) Muicle <i>(Justicia spicigera)</i> Obtenido de: https://www.naturalista.mx/guide_taxa/766868</p>
+            <p>Naturalista (s.f) Mirto morado <i>(Salvia farinacea)</i> Obtenido de: https://www.naturalista.mx/guide_taxa/766874</p>
+            <p>Inecol (s.f) Cordón de Jesús <i>(Salvia leucantha)</i> Obtenido de: https://www.inecol.mx/inecol/index.php/es/ct-menu-item-25/planta-del-mes/37-planta-del-mes/602-cordon-de-jesus#:~:text=Salvia%20leucantha,textura%20aterciopelada%20y%20muy%20aromáticas</p>
+            <p>Naturalista (s.f) Cordoncillo <i>(Salvia leucantha)</i> Obtenido de: https://www.naturalista.mx/guide_taxa/766875</p>
+            <p>CONABIO (s.f) <i>Tecoma Stans</i>. Obtenido de: http://www.conabio.gob.mx/conocimiento/info_especies/arboles/doctos/12-bigno8m.PDF</p>
+            <p>Diego Cera (16 de Mayo del 2016) 7 flores nativas de la ciudad que ayudan a salvar a las abejas. Obtenido de: https://local.mx/ciudad-de-mexico/medio-ambiente/flora/flores-nativas-abejas/</p>
+            <p>CONABIO (06 de Febrero del 2020) Menta y oreganos. Obtenido de: https://www.biodiversidad.gob.mx/especies/gfamilia/135623/index</p>
+            <p>Walkingmexico (s.f) Rancho San Martín: Paraíso de Lavanda. Obtenido de: https://walkingmexico.com/rancho-san-martin/</p>
             </div>
         </section>
     </div>
