@@ -11,7 +11,7 @@ define('TITLE', 'Inicio');
 
 <body>
     <?php include 'header.php' ?>
-    <header class="masthead" style="background-image:url('assets/img/home-bg.jpg');">
+    <header class="masthead" style="background-image:url('assets/img/avistamiento.gif');">
         <div class="overlay"></div>
         <div class="container">
             <div class="row">
