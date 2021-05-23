@@ -48,6 +48,13 @@ define('TITLE', 'Recomendaciones');
                         <h2>La apicultura en Baja California</h2>
                         <p style="text-align: justify;">Apicultores de Baja California produjeron durante la temporada 2020, un total de 70 toneladas de miel de abeja, así lo dio a conocer el Ingeniero Juan Manuel Martínez Núñez, titular de la Representación Estatal de la Secretaría de Agricultura y Desarrollo Rural. Destacó que la mayor producción de miel se registró en los apiarios pertenecientes al Distrito de Desarrollo Rural 002, Río Colorado –Valle de Mexicali-, en donde se reporta la producción de 58 toneladas. En Distrito de Desarrollo Rural 001, Zona Costa, que incluye los municipios de Tecate, Tijuana, Playas de Rosarito y Ensenada, se produjeron 12 toneladas de miel. El padrón de productores de esta zona, oscila en los 51 apicultores, concentrados en su mayoría, en las zonas rurales del municipio de Ensenada. </p>
                     </div>
+                    <div class="text">
+                        </figure>
+                        <h2 style="text-align: center;">Fuentes bibliográficas.</h2>
+                        <p >Rural, D. A. D. S. Y. (2021, 20 mayo). La apicultura en México. gob.mx. https://www.gob.mx/agricultura/articulos/la-apicultura-en-mexico?idiom=es#:%7E:text=Las%20abejas%20meliponas%20son%20la,de%20granos%2C%20semillas%20y%20frutos. </p>
+                            <p >Rural, D. A. D. S. Y. (2015, 21 junio). ¿Qué es la apicultura? gob.mx. https://www.gob.mx/agricultura/es/articulos/que-es-la-apicultura </p>
+                                <p>California, D. S. B. (2021, 4 enero). Produjeron apicultores de Baja California 70 toneladas de miel. gob.mx. https://www.gob.mx/agricultura/bajacalifornia/articulos/produjeron-apicultores-de-baja-california-70-toneladas-de-miel-de-abeja-durante-el-2020?idiom=es</p>
+                    </div>
                 </div>
             </div>
         </div>
