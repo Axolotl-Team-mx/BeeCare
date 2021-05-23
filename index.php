@@ -11,13 +11,13 @@ define('TITLE', 'Inicio');
 
 <body>
     <?php include 'header.php' ?>
-    <header class="masthead" style="background-image:url('assets/img/home-bg.jpg');">
-        <div class="overlay"></div>
+    <header class="masthead" style="background-image:url('assets/img/indexbee.gif');">
+    <br> <div class="overlay"></div>
         <div class="container">
             <div class="row">
                 <div class="col-md-10 col-lg-8 mx-auto position-relative">
                     <div class="site-heading">
-                        <h1>¿Qué hay de nuevo?</h1><span class="subheading">Aquí encontraras cada una de nuestras nuevas investigaciones o trabajos.</span>
+                    <br><h1>¿Qué hay de nuevo?</h1><span class="subheading">Aquí encontraras cada una de nuestras nuevas investigaciones o trabajos.</span><br>
                     </div>
                 </div>
             </div>
@@ -27,13 +27,13 @@ define('TITLE', 'Inicio');
         <section class="article-list">
             <div class="container">
                 <div class="intro">
-                    <h2 class="text-center">Bee Care</h2>
-                    <p class="text-center">Cambiemos la perspectiva en que se visualizan las abejas en México</p>
+                    <h2 class="text-center">Bee Care.</h2>
+                    <p class="text-center">Cambiemos la perspectiva en que se visualizan las abejas en México.</p>
                 </div>
                 <div class="row articles">
                     <div class="col-sm-6 col-md-4 item"><a href="bees.php"><img class="img-fluid" src="assets/img/abja.jpg"></a>
-                        <h3 class="name">¿Conoces los diferentes tipos de abeja en México?</h3>
-                        <p class="description" style="text-align: justify;">Haz clic aquí para obtener información hacerca de los diferentes tipos de abejas que existen en méxico, así como sus clasificaciones, subfamilias, características y especies.</p>
+                        <h3 class="name">¿Conoces las diferentes familias de abejas?</h3>
+                        <p class="description" style="text-align: justify;">Haz clic aquí para obtener información acerca de los diferentes tipos de abejas que existen en méxico, así como sus clasificaciones, subfamilias, características y especies.</p>
                         <a class="action" href="bees.php">
                             <i class="fa fa-arrow-circle-right">
                             </i> 
