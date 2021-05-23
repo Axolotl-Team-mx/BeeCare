@@ -31,41 +31,33 @@ define('TITLE', 'Inicio');
                     <p class="text-center">Cambiemos la perspectiva en que se visualizan las abejas en México</p>
                 </div>
                 <div class="row articles">
-                    <div class="col-sm-6 col-md-4 item"><a href="bees.php"><img class="img-fluid" src="assets/img/desk.jpg"></a>
+                    <div class="col-sm-6 col-md-4 item"><a href="bees.php"><img class="img-fluid" src="assets/img/abja.jpg"></a>
                         <h3 class="name">¿Conoces los diferentes tipos de abeja en México?</h3>
-                        <p class="description">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu gravida. Aliquam varius finibus est, interdum justo suscipit id.</p>
+                        <p class="description" style="text-align: justify;">Haz clic aquí para obtener información hacerca de los diferentes tipos de abejas que existen en méxico, así como sus clasificaciones, subfamilias, características y especies.</p>
                         <a class="action" href="bees.php">
                             <i class="fa fa-arrow-circle-right">
-                            </i>
-                        </a>
-                    </div>
-                    <div class="col-sm-6 col-md-4 item"><a href="beeplants.php"><img class="img-fluid" src="assets/img/desk.jpg"></a>
-                        <h3 class="name">Conoce las plantas favoritas de las abejas</h3>
-                        <p class="description">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu gravida. Aliquam varius finibus est, interdum justo suscipit id.</p>
+                            </i> 
+                        </a> 
+                    </div>             
+                    <div class="col-sm-6 col-md-4 item"><a href="beeplants.php"><img class="img-fluid" src="assets/img/plantas.jpg"></a>
+                        <h3 class="name">Conoce las plantas favoritas de las abejas.</h3>
+                        <p class="description" style="text-align: justify;">Haz clic aquí para conocer algunas de las plantas preferidas de las abejas.</p>
                         <a class="action" href="beeplants.php">
                             <i class="fa fa-arrow-circle-right">
                             </i>
                         </a>
                     </div>
-                    <div class="col-sm-6 col-md-4 item"><a href="beeplants.php"><img class="img-fluid" src="assets/img/desk.jpg"></a>
-                        <h3 class="name">Conoce las plantas favoritas de las abejas</h3>
-                        <p class="description">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu gravida. Aliquam varius finibus est, interdum justo suscipit id.</p>
-                        <a class="action" href="beeplants.php">
-                            <i class="fa fa-arrow-circle-right">
-                            </i>
-                        </a>
-                    </div>
-                    <div class="col-sm-6 col-md-4 item"><a href="beeTips.php"><img class="img-fluid" src="assets/img/desk.jpg"></a>
-                        <h3 class="name">¡oh no!, me encontre con una abeja, ¿qué deberia hacer?</h3>
-                        <p class="description">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu gravida. Aliquam varius finibus est, interdum justo suscipit id.</p>
+                    <div class="col-sm-6 col-md-4 item"><a href="beeTips.php"><img class="img-fluid" src="assets/img/apicultura.jpg"></a>
+                        <h3 class="name">Conoce la apicultura de méxico.</h3>
+                        <p class="description" style="text-align: justify;">Haz clic aquí para conocer acerca de la apicultura en México, tomando en cuenta algunos datos estadísticos en la región de baja california.</p>
                         <a class="action" href="beeTips.php">
                             <i class="fa fa-arrow-circle-right">
                             </i>
                         </a>
                     </div>
-                    <div class="col-sm-6 col-md-4 item"><a href="beeTips.php"><img class="img-fluid" src="assets/img/desk.jpg"></a>
+                    <div class="col-sm-6 col-md-4 item"><a href="beedead.php"><img class="img-fluid" src="assets/img/muerte.jpg"></a>
                         <h3 class="name">¿Por qué puede morir una abeja?</h3>
-                        <p class="description">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu gravida. Aliquam varius finibus est, interdum justo suscipit id.</p>
+                        <p class="description" style="text-align: justify;">Haz clic aquí para conocer algunas de las causas por las cuales las abejas pueden morir, como lo pueden ser parásitos, bacterias y ácaros, ademas conocer la localización donde estas se encuentran, y algunas de las especies que existen.</p>
                         <a class="action" href="beedead.php">
                             <i class="fa fa-arrow-circle-right">
                             </i>
