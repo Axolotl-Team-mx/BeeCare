@@ -102,6 +102,15 @@ define('TITLE', 'Bee care');
                         <li>Aplicar hielo o compresas frías.</li>
                         <li>Si el dolor no remite, se puede tomar un analgésico y un antihistamínico para aliviar el picor. </li>
                     </div>
+
+                    <p></p>
+                    <div>
+                        <h1 class="text-center">Fuentes bibliográficas</h1>
+                    </div>
+                    <p>INCyTU. (Mayo de 2019). Abejas> Insectos Polinizadores. Ciudad de México, Ciudad de México, México. Obtenido de https://foroconsultivo.org.mx/INCyTU/documentos/Completa/INCYTU_19-031.pdf</p>
+                    <p>MXCity. (s.f.). MXCITY GUIA INSIDER. Obtenido de 7 PASOS SENCILLOS PARA AYUDAR A SALVAR A LAS ABEJAS DE LA CDMX: https://mxcity.mx/2019/05/7-pasos-sencillos-para-ayudar-a-salvar-a-las-abejas-de-la-cdmx/</p>
+                    <p>Fundación Amigos de Abejas. (2008). Fundación Amigos de Abejas. Obtenido de Abejas en Peligro: https://abejas.org/las-abejas/abejas-en-peligro/</p>
+                    <p>Ciencia de Hoy. (s.f.). Ciencia de Hoy. Obtenido de Ventajas y desventajas de las abejas: https://cienciadehoy.com/ventajas-y-desventajas-de-las-abejas/</p>
                 </div>
             </div>
         </div>
