@@ -68,7 +68,7 @@ define('TITLE', 'Inicio');
             <th>Nombre de la Localización</th>
             <th>Descripción</th>
             <th></th>
-            <th> <a href="nuevo_prod.php"> <button type="button" class="btn btn-info">Nuevo</button> </a> </th>
+            <th> <a href="assets/nuevo_prod1.php"> <button type="button" class="btn btn-info">Nuevo</button> </a> </th>
           </thead>
 
           <?php
@@ -93,8 +93,8 @@ define('TITLE', 'Inicio');
             echo "<td>";
             echo $row['locLat'];
             echo "</td>";
-            echo "<td><a href='modif_loc.php?no=" . $row['locId'] . "'> <button type='button' class='btn btn-success'>Modificar</button> </a></td>";
-            echo " <td><a href='eliminar_prod.php?no=" . $row['locId'] . "'> <button type='button' class='btn btn-danger'>Eliminar</button> </a></td>";
+            echo "<td><a href='assets/modif_loc.php?no=" . $row['locId'] . "'> <button type='button' class='btn btn-success'>Modificar</button> </a></td>";
+            echo " <td><a href='assets/eliminar_prod.php?no=" . $row['locId'] . "'> <button type='button' class='btn btn-danger'>Eliminar</button> </a></td>";
             echo "</tr>";
           }
           ?>
