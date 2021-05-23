@@ -5,7 +5,7 @@ define('TITLE', 'Recomendaciones');
 ?>
 
 <head>
-    <title>beedead <?php echo TITLE ?></title>
+    <title>beedead - <?php echo TITLE ?></title>
     <?php include 'head.php'; ?>
 </head>
 

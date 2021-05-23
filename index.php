@@ -5,7 +5,7 @@ define('TITLE', 'Inicio');
 ?>
 
 <head>
-    <title>About - <?php echo TITLE ?></title>
+    <title><?php echo TITLE ?></title>
     <?php include 'head.php'; ?>
 </head>
 

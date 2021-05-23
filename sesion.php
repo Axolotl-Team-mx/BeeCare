@@ -5,7 +5,7 @@ define('TITLE', 'Inicio');
 ?>
 
 <head>
-    <title>About - <?php echo TITLE ?></title>
+    <title>Reporte avistamiento - <?php echo TITLE ?></title>
     <?php include 'head.php'; ?>
 </head>
 
@@ -17,7 +17,7 @@ define('TITLE', 'Inicio');
             <div class="row">
                 <div class="col-md-10 col-lg-8 mx-auto position-relative">
                     <div class="site-heading">
-                        <h1>Inició de sesión</h1><span class="subheading">
+                        <h1>Inicio de sesión</h1><span class="subheading">
                     </div>
                 </div>
             </div>

@@ -5,7 +5,7 @@ define('TITLE', 'Bee care');
 ?>
 
 <head>
-    <title>About - <?php echo TITLE ?></title>
+    <title>beecare - <?php echo TITLE ?></title>
     <?php include 'head.php'; ?>
     <?php include 'assets/headMapa.php'; ?>
     <meta charset="utf-8" />
@@ -13,7 +13,7 @@ define('TITLE', 'Bee care');
 
 <body onload="GetMap()">
     <?php include 'header.php' ?>
-    <header class="masthead" style="background-image:url('assets/img/post-bg.jpg');">
+    <header class="masthead" style="background-image:url('assets/img/beecare2.gif');">
         <div class="overlay"></div>
         <div class="container">
             <div class="row">

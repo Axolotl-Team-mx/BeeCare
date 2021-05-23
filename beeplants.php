@@ -5,7 +5,7 @@ define('TITLE', '¿Abejas para plantas?');
 ?>
 
 <head>
-    <title>About - <?php echo TITLE ?></title>
+    <title>beeplants - <?php echo TITLE ?></title>
     <?php include 'head.php'; ?>
 </head>
 
