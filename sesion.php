@@ -26,7 +26,7 @@ define('TITLE', 'Inicio');
     <div class="container">
     <div class="row">
                 <div class="col-md-10 col-lg-8 mx-auto">
-                    <p>Introducción pendiente...</p>
+                    <p>Por favor registra un usuario o logueate para registrar un avistamiento. </p>
                     <div class="Login">
                         <form method="POST" action="main.php">
                             <table>

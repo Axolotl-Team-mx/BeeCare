@@ -1,5 +1,5 @@
 <?php
-EliminarProducto($_GET['no']);
+EliminarProducto($_GET['locId']);
 
 function EliminarProducto($no)
 {
