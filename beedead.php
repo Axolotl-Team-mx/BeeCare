@@ -29,7 +29,7 @@ define('TITLE', 'Recomendaciones');
             <div class="row">
                 <div class="col-lg-10 col-xl-8 offset-lg-1 offset-xl-2">                         
 
-                    <h1 class="text-center">Motivos por los cuales las abejas pueden morir.</h1>
+                    <h1 class="text-center">Causas por las cuales las abejas pueden morir.</h1>
                     <div class="text">              
                         <figure class="figure d-block"><img class="figure-img" src="assets/img/Acarapisosis.jpg" width="500px" height="300px">
                         <figcaption class="figure-caption">Acarapisosis microscópico.</figcaption>
