@@ -17,7 +17,7 @@ define('TITLE', 'Recomendaciones');
             <div class="row">
                 <div class="col-md-10 col-lg-8 mx-auto position-relative">
                     <div class="site-heading">
-                        <h1>¿Qué hay de nuevo?</h1><span class="subheading">Aquí encontraras cada una de nuestras nuevas investigaciones o trabajos.</span>
+                        <h1>¿Qué tanto conoces acerca de la apicultura de méxico?</h1><span class="subheading">Aquí encontraras información acerca de la apicultura de México, pero también tomando en cuenta la región de Baja California y sus niveles de producción.</span>
                     </div>
                 </div>
             </div>
@@ -28,13 +28,6 @@ define('TITLE', 'Recomendaciones');
         <div class="container">
             <div class="row">
                 <div class="col-lg-10 col-xl-8 offset-lg-1 offset-xl-2">
-
-                    <form enctype="multipart/form-data" action="#" method="POST">
-                        <p>Upload your file</p>
-                        <input type="file" name="uploaded_file"></input><br />
-                        <input type="submit" value="Upload"></input>
-                    </form>
-
                     <h1 class="text-center">La apicultura</h1>
                     <div class="text">
                         </figure>
