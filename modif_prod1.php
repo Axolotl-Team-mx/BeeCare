@@ -1,81 +1,73 @@
 <?php
 
-$consulta = ConsultarProducto($_GET['no']);
+$consulta = ConsultaReporte($_GET['no']);
 
-function ConsultarProducto($no_prod)
+function ConsultaReporte($id)
 {
   include "conexion.php";
-  $sql = "SELECT * FROM Habitacion WHERE habId= ?;";
-  $params = array($no_prod);
+  $sql = "SELECT * FROM Localizacion WHERE locId= ?;";
+  $params = array($id);
 
   $stmt = sqlsrv_query($conn, $sql, $params);
   if ($stmt === false) {
     die(print_r(sqlsrv_errors(), true));
     printf("Algo fallo");
   }
-
-  return [
-    $stmt['habId'],
-    $stmt['habName'],
-    $stmt['habDescription']
-  ];
 }
 ?>
 <!DOCTYPE html>
 <html>
+<?php
+define('TITLE', 'Axolotl Team');
+?>
 
 <head>
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Modificar Producto</title>
-  <style type="text/css">
-    @import url("css/mycss.css");
-  </style>
-  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
-  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-  <!--[if lt IE 9]>
-<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-<![endif]-->
+  <title>About - <?php echo TITLE ?></title>
+  <?php include 'head.php'; ?>
 </head>
 
 <body>
-  <div class="todo">
-
-    <div id="cabecera">
-      <img src="images/swirl.png" width="1188" id="img1">
-    </div>
-
-    <div id="contenido">
-      <div style="margin: auto; width: 800px; border-collapse: separate; border-spacing: 10px 5px;">
-        <span>
-          <h1>Modificar Producto</h1>
-        </span>
-        <br>
-        <form action="modif_prod2.php" method="POST" style="border-collapse: separate; border-spacing: 10px 5px;">
-          <input type="hidden" name="habId" value="<?php echo $_GET['no'] ?>">
-
-          <label>Nombre de la habitación: </label>
-          <input type="text" id="Nombre" name="habName" value="<?php echo $_GET[1] ?>"><br>
-
-          <label>Descripcion: </label>
-          <input type="text" id="Descripcion" name="habDescription" value="<?php echo $_GET[1] ?>"><br>
-
-          <br>
-          <button type="submit" class="btn btn-success">Guardar</button>
-        </form>
+  <?php include 'header.php' ?>
+  <header class="masthead" style="background-image:url('assets/img/about-bg.jpg');">
+    <div class="overlay"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-10 col-lg-8 mx-auto position-relative">
+          <div class="site-heading">
+            <h1>
+              Agregar un nuevo reporte
+            </h1><span class="subheading">Recuerda tomar con seriedad los reportes</span>
+          </div>
+        </div>
       </div>
-
     </div>
+  </header>
+  <div>
+    <div class="container">
+      <form action="modif_prod2.php" method="POST" style="border-collapse: separate; border-spacing: 10px 5px;">
+        <input type="hidden" name="locId">
 
-    <div id="footer">
-      <img src="images/swirl2.png" id="img2">
+        <label>Descripción/Nombre del reporte: </label>
+        <input type="text" id="Nombre" name="locName" ><br>
+
+        <label>Longitud: </label>
+        <input type="text" id="Longitud" name="locLon"><br>
+
+        <label>Latitud: </label>
+        <input type="text" id="Latitud" name="locLan" ><br>
+
+        <br>
+        <button type="submit" class="btn btn-success">Guardar</button>
+      </form>
     </div>
-
   </div>
-
-
+  <footer>
+    <?php include 'footer.php'; ?>
+  </footer>
+  <hr>
+  <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.4.8/swiper-bundle.min.js"></script>
+  <script src="assets/js/script.min.js"></script>
 </body>
 
 </html>

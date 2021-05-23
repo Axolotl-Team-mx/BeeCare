@@ -1,12 +1,12 @@
 <?php
 
-ModificarProducto($_POST['habName'], $_POST['habDescription'], $_POST['habId']);
+ModificarReporte($_POST['locName'],  $_POST['locLon'], $_POST['locLat'], $_POST['locId']);
 
-function ModificarProducto($nom, $descrip, $id_prod)
+function ModificarReporte($nom, $long, $lat, $id)
 {
 	include 'conexion.php';
-	$sql = "UPDATE Habitacion SET habName=? , habDescription=? WHERE habId=?;";
-	$params = array($nom, $descrip, $id_prod);
+	$sql = "UPDATE Localizacion SET locName=? , locLon=? , locLat=? WHERE locId=?;";
+	$params = array($nom, $long, $lat, $id);
 
 	$stmt = sqlsrv_query($conn, $sql, $params);
 	if ($stmt === false) {
@@ -16,6 +16,6 @@ function ModificarProducto($nom, $descrip, $id_prod)
 ?>
 
 <script type="text/javascript">
-	alert("Datos Actualizados Exitosamante!!");
+	alert("¡Datos Actualizados Exitosamante!, se cerrará la sesión.");
 	window.location.href = 'index.php';
 </script>
