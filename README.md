@@ -1,6 +1,5 @@
 # AxolotlTeam-[BeeCare](http://axolotlteam.com)
 ### ----- Descripción -----
-Este proyecto lo realicé por gusto, diversión y práctica.
 
 Existen diferentes tipos de abejas invasoras que provocan que el habitad de las nuestras se vea afectado.
 A la llegada de una especie invasora, estas se apropian de las plantas que alimentan a nuestras abejas  provocando que mueran, ya sea por ataques de las abejas invasoras o por falta de alimento.
@@ -8,7 +7,6 @@ A la llegada de una especie invasora, estas se apropian de las plantas que alime
 Con BeeCare buscamos combatir la desinformación respecto a las abejas nativas de nuestra localidad, apoyándonos en artículos y páginas web especializadas, ofrecemos una gamma de información que permitirá identificar los cuidados, peligros y recomendaciones al momento de tratar con nuestras abejas.
 
 ### ----- Tabla de contenidos -----
-
 
 **_Las funciones que ofrecemos mediante nuestra página web son las siguientes:._**
 
@@ -35,16 +33,17 @@ para poder corroborár el avistamiento._
 ### ----- Tecnologías y herramientas utilizadas -----
 [Visual Studio Code](#) - IDE utilizado para programar.
 
-[SQL Server](#) - IDE utilizado para programar.
+[SQL Server](#) - Base de Datos.
 
-[SQL Server](#) - IDE utilizado para programar.
 
 ### ----- Por hacer -----
-- [x] Realizar la forma y diseño.
-- [x] Programar los botones.
-- [x] Realizar librería.
-- [x] Pruebas de funcionamiento.
-- [x] Subir proyecto a Github. :octocat:
+- [x] Investigación sobre las abejas y apicultura.
+- [x] Preguntas para el chatbot.
+- [x] Diseño de la página web.
+- [x] Realizar Base de Datos para los reportes de avistamientos.
+- [x] Una vez investigada la información, comenzar a agregarla a la página.
+- [x] Trabajar en el repositorio de Github.
+- [x] Realizar una última revisión para posibles errores o detalles.
 
 ### ----- Acerca de nosotros -----
 Para conocer informacion de nosotros no olvides visitar el siguiente [link](http://axolotlteam.com/about.php)
